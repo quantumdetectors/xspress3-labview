@@ -43,20 +43,10 @@ Control programs for Xspress3.
   Update data. 'ON' flag is not change to 'OFF' automatically. You need to send 'OFF' again.
 * XSP3_GetAcquireStatus.vi
   Get acuisition status.
+* XSP3_GetAllData_v2.vi
+  Get all data. Replaces GetRoi, GetRoiArray, GetIcrArray, GetIcr, GetMcaSum, and GetMca in v1. Get 1st ROI data.
 * XSP3_GetFrame.vi
   Get total number of frames acquired.
-* XSP3_GetIcr.vi
-  Get all event scaler.
-* XSP3_GetIcrArray.vi
-  Get all event scaler array.
-* XSP3_GetMca.vi
-  Get MCA spectra data.
-* XSP3_GetMcaSum.vi
-  Get MCA spectra array data.
-* XSP3_GetRoi.vi
-  Get 1st ROI data.
-* XSP3_GetRoiArray.vi
-  Get ROI array data.
 * XSP3_GetStatusMessage.vi
   Get status message.
 * XSP3_SetAcquireTime.vi
@@ -67,14 +57,13 @@ Control programs for Xspress3.
   Set File index number.
 * XSP3_SetNumberOfImages.vi
   Set number of frames to acuire.
-* XSP3_SetRoiHlm.vi
-  Set higher limit of ROI.
-* XSP3_SetRoiLlm.vi
-  Set lower limit of ROI.
+* XSP3_SetRoi.vi
+  Set higher and lower limit of ROI.
+
 
 
 Sample programs.
-* XSP3_Get_Data.vi
+* XSP3_Get_Data_v2.vi
   Get ICR/MCA data program after acquisition with offset calcualtion.
 * Xsprees3_Set_ROI.vi
   Set the ROI limit value and output the setting to txt file.
